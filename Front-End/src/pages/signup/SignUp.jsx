@@ -37,7 +37,7 @@ function Signup() {
             </label>
             <input
               type="text"
-              placeholder="Dhanush"
+              placeholder="Enter Full Name (eg: Bobe Harry)"
               className="w-full input input-bordered h-10"
               value={inputs.fullName}
               onChange={(e) =>
@@ -51,7 +51,7 @@ function Signup() {
             </label>
             <input
               type="text"
-              placeholder="dhanush"
+              placeholder="Enter User Name (eg: bobe_hary)"
               className="w-full input input-bordered h-10"
               value={inputs.userName}
               onChange={(e) =>
